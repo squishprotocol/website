@@ -22,8 +22,8 @@ const Timeline = () => {
                     </div>
                 </li>
                 <li style={{ '--accent-color': '#E24A68' }}>
-                    <div className="date">2012</div>
-                    <div className="title">2023 - june</div>
+                    <div className="date">2023 - june</div>
+                    <div className="title">Partnership</div>
                     <div className="descr">
                         Adding Partner Token as Reaward on our farming platform.
                     </div>
