@@ -7,7 +7,7 @@ const Footer = () => {
             <footer className="footer p-10 text-white flex justify-between">
                 <div>
                     <img src={logo} alt="Logo" width="50" height="50" />
-                    <p>squish protocol<br /><br />The information provided on this website is for general informational purposes only and should not be construed as financial advice. The content of this website is not tailored to your individual circumstances and is not intended to provide, and should not be relied upon for, investment, accounting, legal or tax advice. We recommend that you seek advice from a qualified professional before making any financial decisions. Any use of this website is at your sole risk. We make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information on this website.</p>
+                    <p>squish protocol<br /><br /></p>
                 </div>
                 <div>
                     <span className="footer-title">Social</span>
