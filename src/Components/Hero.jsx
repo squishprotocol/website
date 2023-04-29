@@ -1,8 +1,9 @@
 import React from 'react'
+import FlipCounter from "../Components/FlipCounter"
 import logo from "../../public/logo.png"
 const Hero = () => {
     return (
-        <div>
+        <div><FlipCounter/>
             <section>
                 <div className="grid h-screen px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                     <div className="mr-auto place-self-center lg:col-span-7">

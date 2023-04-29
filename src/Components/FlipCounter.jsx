@@ -2,11 +2,16 @@ import React, { useState, useEffect } from 'react';
 import moment from 'moment';
 
 const FlipCounter = () => {
-  const [countdownTimer, setCountdownTimer] = useState({
-    days: 1,
-    hours: 0,
-    mins: 0,
-    secs: 0,
+  const targetDate = moment('2023-04-29T22:30:00');
+  const [countdownTimer, setCountdownTimer] = useState(() => {
+    const now = moment();
+    const diff = moment.duration(targetDate.diff(now));
+    return {
+      days: diff.days(),
+      hours: diff.hours(),
+      mins: diff.minutes(),
+      secs: diff.seconds(),
+    };
   });
 
   useEffect(() => {
@@ -34,6 +39,7 @@ const FlipCounter = () => {
 
   return (
     <div className="flex flex-col items-center justify-center mb-2">
+      <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Stake Your $SQUISH and earn BNB,BUSD and more</h1><br />
       <div className="flex items-center justify-center gap-4">
         <div className="flex flex-col items-center justify-center bg-gray-600 rounded-lg shadow-lg p-4">
           <div className="text-3xl font-bold">{days}</div>
@@ -55,4 +61,5 @@ const FlipCounter = () => {
     </div>
   );
 };
+
 export default FlipCounter;
