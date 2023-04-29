@@ -13,24 +13,24 @@ const Faq = () => {
 
   const faqs = [
     {
-      question: 'How can I play for my appointment?',
-      answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum laboriosam recusandae facere dolorum veniam quia pariatur obcaecati illo ducimus?',
+      question: 'What is Squish Protocol?',
+      answer: 'Squish Protocol is a DeFi farming platform that allows users to stake Squish Tokens and earn rewards in various cryptocurrencies.',
     },
     {
-      question: 'Is the cost of the appointment covered by private health insurance?',
-      answer: 'Answer 2',
+      question: 'What is the Squish Token?',
+      answer: 'The Squish Token is the native token of the Squish Protocol. It provides access to the farming platform and other features of the Squish ecosystem.',
     },
     {
-      question: 'Do I need a referral?',
-      answer: 'Answer 3',
+      question: 'How do I stake my Squish Tokens?',
+      answer: 'You can stake your Squish Tokens by connecting your compatible wallet to the Squish Protocol farming platform and following the staking instructions.',
     },
     {
-      question: 'What are your opening hours?',
-      answer: 'Answer 4',
+      question: 'What are the benefits of staking Squish Tokens?',
+      answer: 'Staking Squish Tokens allows users to earn rewards in various cryptocurrencies. The longer the stake, the higher the rewards.',
     },
     {
-      question: 'What can I expect at my first consultation?',
-      answer: 'Answer 5',
+      question: 'How do I withdraw my rewards?',
+      answer: 'Rewards can be withdrawn from the Squish Protocol platform at any time, subject to the applicable lockup periods and withdrawal fees.',
     },
   ];
 

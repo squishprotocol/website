@@ -3,10 +3,10 @@ import moment from 'moment';
 
 const FlipCounter = () => {
   const [countdownTimer, setCountdownTimer] = useState({
-    days: 8,
-    hours: 23,
-    mins: 30,
-    secs: 15,
+    days: 1,
+    hours: 0,
+    mins: 0,
+    secs: 0,
   });
 
   useEffect(() => {
